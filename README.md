@@ -1,6 +1,6 @@
 # npmtest-gulp-angular-embed-templates
 
-#### test coverage for  [gulp-angular-embed-templates (v2.3.0)](https://github.com/laxa1986/gulp-angular-embed-templates)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-angular-embed-templates.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-angular-embed-templates) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-angular-embed-templates.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-angular-embed-templates)
+#### basic test coverage for  [gulp-angular-embed-templates (v2.3.0)](https://github.com/laxa1986/gulp-angular-embed-templates)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-angular-embed-templates.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-angular-embed-templates) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-angular-embed-templates.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-angular-embed-templates)
 
 #### gulp plugin to include the contents of angular templates inside directive's code
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-angular-embed-templates/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-angular-embed-templates/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-angular-embed-templates/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "2.3.0"
+    "version": "2.3.0",
+    "bin": {}
 }
 ```
 
